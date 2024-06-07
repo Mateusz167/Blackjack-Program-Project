@@ -18,16 +18,16 @@ main.py: This file contains the Python code for the Blackjack game.
 diagram.drawio: This file contains the draw.io diagram mapping out the game logic.
 
 # Game Rules
-The player is dealt two cards and the dealer (computer) is dealt two cards, with one of the dealer's cards hidden.
-The player can choose to "hit" to draw additional cards or "stand" to end their turn.
-The goal is to have a hand value as close to 21 as possible without exceeding 21.
-Numbered cards count as their face value.
-Jack, Queen, and King count as 10.
-Aces can count as 11 or 1, depending on which value keeps the hand's total closer to 21 without exceeding it.
-After the player stands, the dealer reveals their hidden card and draws additional cards according to the following rules:
-The dealer must draw if their hand total is 16 or less.
-The dealer must stand if their hand total is 17 or more.
-The winner is determined by whose hand is closer to 21 without exceeding it.
+- The player is dealt two cards and the dealer (computer) is dealt two cards, with one of the dealer's cards hidden.
+- The player can choose to "hit" to draw additional cards or "stand" to end their turn.
+- The goal is to have a hand value as close to 21 as possible without exceeding 21.
+- Numbered cards count as their face value.
+- Jack, Queen, and King count as 10.
+- Aces can count as 11 or 1, depending on which value keeps the hand's total closer to 21 without exceeding it.
+- After the player stands, the dealer reveals their hidden card and draws additional cards according to the following rules:
+- The dealer must draw if their hand total is 16 or less.
+- The dealer must stand if their hand total is 17 or more.
+- The winner is determined by whose hand is closer to 21 without exceeding it.
 
 # Draw.io Diagram
 The diagram.drawio file contains a visual representation of the game logic, including the flow of actions and decision points. You can view and edit this diagram using the draw.io application.
