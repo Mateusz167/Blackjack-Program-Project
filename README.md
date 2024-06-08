@@ -14,8 +14,9 @@ This project implements a simple Blackjack game in Python. The game follows stan
 - The computer acts as the dealer.
 
 # Files Included
-main.py: This file contains the Python code for the Blackjack game.
-diagram.drawio: This file contains the draw.io diagram mapping out the game logic.
+- main.py: This file contains the Python code for the Blackjack game.
+- art.py: This file containg art to improve user expiriance
+- Blackjack_Flowchart.drawio: This file contains the draw.io diagram mapping out the game logic.
 
 # Game Rules
 - The player is dealt two cards and the dealer (computer) is dealt two cards, with one of the dealer's cards hidden.
